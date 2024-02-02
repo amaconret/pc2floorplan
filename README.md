@@ -1,8 +1,8 @@
 # Floorplan Generation from Noisy Point Cloud
 
-This repository releases the data and trained models presented in our paper: [Floorplan Generation from Noisy Point Cloud] (https://dl.acm.org/doi/abs/10.1145/3615888.3627810)!
+This repository releases the data and trained models presented in our paper: [Floorplan Generation from Noisy Point Cloud] (https://dl.acm.org/doi/abs/10.1145/3615888.3627810)
 
-Our work extends [RoomFormer](https://github.com/ywyue/RoomFormer)! to operate on noisier data of point clouds composed of real-world sensor samples. We transformed the [FloorNet](https://art-programmer.github.io/floornet.html)! dataset into a COCO style dataset for easier integration with RoomFormer. The raw data was collected using Tango devices with depth estimation.
+Our work extends [RoomFormer](https://github.com/ywyue/RoomFormer) to operate on noisier data of point clouds composed of real-world sensor samples. We transformed the [FloorNet](https://art-programmer.github.io/floornet.html) dataset into a COCO style dataset for easier integration with RoomFormer. The raw data was collected using Tango devices with depth estimation.
 
 ### Data
 
@@ -24,9 +24,9 @@ data/floorNet_COCO
 
 We trained several models, with the best performing checkpoints included in this repository.
 
-- Optimised for polygon only floorplans: [link](https://floornet-data.s3.eu-west-1.amazonaws.com/polygon.pth)!
+- Optimised for polygon only floorplans: [link](https://floornet-data.s3.eu-west-1.amazonaws.com/polygon.pth)
 
-- Optimised for rich semantic floorplans: [link](https://floornet-data.s3.eu-west-1.amazonaws.com/rich_sem.pth)!
+- Optimised for rich semantic floorplans: [link](https://floornet-data.s3.eu-west-1.amazonaws.com/rich_sem.pth)
 
 
 Licensing. Our development is built on top of other code released with the MIT license, so we carry the same conditions. 
