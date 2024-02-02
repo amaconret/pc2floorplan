@@ -9,7 +9,7 @@ Our work extends [RoomFormer](https://github.com/ywyue/RoomFormer)! to operate o
 Our adaptation of the FloorNet dataset captures density images in two folders ``train/`` and ``val/``, and COCO style annotations:
 
 ```
-data/
+data/floorNet_COCO
 └── annotations/
     └── train.json
     └── val.json
