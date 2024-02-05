@@ -24,9 +24,9 @@ data/floorNet_COCO
 
 We trained several models, with the best performing checkpoints included in this repository.
 
-- Optimised for polygon only floorplans: [link](https://floornet-data.s3.eu-west-1.amazonaws.com/polygon.pth)
+- Optimised for polygon only floorplans: [link](https://huggingface.co/amaconret/pc2floorplan/blob/main/polygon.pth)
 
-- Optimised for rich semantic floorplans: [link](https://floornet-data.s3.eu-west-1.amazonaws.com/rich_sem.pth)
+- Optimised for rich semantic floorplans: [link](https://huggingface.co/amaconret/pc2floorplan/blob/main/rich_sem.pth)
 
 
 Licensing. Our development is built on top of other code released with the MIT license, so we carry the same conditions. 
